@@ -66,10 +66,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void cargarlista(){
        // datos=new Persona[]{"dato1","dato2","dato3","dato3","dato4","dato5","dato6","dato7","dato8","dato9","dato10"};
-        datos=  new Persona[](new Persona ("kath","Cc","kathe @k.com","1754828694"),
+        datos=  new Persona[]{new Persona ("kath","Cc","kathe @k.com","1754828694"),
                 new Persona ("kath1","Cc","kathe @k.com","1754828694"),
                 new Persona ("kath2","Cc","kathe @k.com","1754828694"),
-                new Persona ("kath3","Cc","kathe @k.com","1754828694"))
+                new Persona ("kath3","Cc","kathe @k.com","1754828694")};
     }
     public void abrirpantalla2(View view){
         Intent intent = new Intent(getApplicationContext(), Main2Activity.class); // Obtengo el activity General getApplicationContext()
